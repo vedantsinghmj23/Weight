@@ -1,0 +1,34 @@
+<%- include("partials/header") %>
+
+  <h1>About</h1>
+  <p>
+    <%= aboutscript %>
+  </p>
+
+  <!-- <canvas id="myChart" width="400" height="400"></canvas>
+
+  <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        datasets: [{
+          label: 'Scatter Dataset',
+          data: <%= JSON.stringify(collect) %>,
+        }]
+    },
+      options: {
+      showLine: true,
+      scales: {
+        xAxes: [{
+          type: 'linear',
+          position: 'bottom'
+        }]
+      }
+    }
+    });
+  </script> -->
+
+
+
+  <%- include("partials/footer") %>

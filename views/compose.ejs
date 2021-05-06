@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+
+  <h1>Compose</h1>
+  <form class="" method="post">
+    <div class="form-group">
+      <label for="Month">Month (from 1 - 12)</label> <br>
+      <input class="form-control" type="text" name="month"> <br>
+      <label for="Day">Day (from 1 - 31)</label> <br>
+      <input class="form-control" type="text" name="day"> <br>
+      <label for="Weight">Weight (in lbs)</label> <br>
+      <input class="form-control" type="text" name="weight"> <br>
+      <label for="Food">Food Eaten: </label> <br>
+      <textarea class="form-control" name="food" rows="8" cols="80"></textarea> <br>
+    </div>
+    <button class="btn btn-primary" type="submit" name="button">Enter</button>
+  </form>
+  <%- include("partials/footer") %>
